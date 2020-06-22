@@ -26,5 +26,5 @@ function all(values) {
     result[index] = toString(values[index])
   }
 
-  return result.join('')
+  return result.join(' ')
 }
