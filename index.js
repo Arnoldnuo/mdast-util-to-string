@@ -9,8 +9,6 @@ function toString(node) {
   return (
     (node &&
       (node.value ||
-        node.alt ||
-        node.title ||
         ('children' in node && all(node.children)) ||
         ('length' in node && all(node)))) ||
     ''
